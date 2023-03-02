@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:teal;
+}
+
+p{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    padding: 5px 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-transform: capitalize;
+}
+
+h3{
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+}
+
+.review{
+    width: 500px;
+    margin:0 auto ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    gap: 15px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.review .img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.review .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.btn-container{
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+    
+}
+
+.btn-container button{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    color: white;
+    transition: 500ms;
+    cursor: pointer;
+    font-weight: 400;
+}
+.btn-container button:hover{
+    transform: scale(1.1);
+}
